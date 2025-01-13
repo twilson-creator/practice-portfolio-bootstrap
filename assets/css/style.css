@@ -23,7 +23,7 @@ h1, h2 {
 
 #hero {
     background-color: #dbdcde;
-    background-image: url(../images/background.webp);
+    background-image: url(assets/images/background.webp);
     background-size: cover;
     background-position: 50% 70%;
     min-height: 500px;
@@ -40,6 +40,19 @@ h1, h2 {
 
 #portfolio {
     background-color: #dbdcde;
+}
+
+#portfolio .card-title {
+    color: #1f7798;
+    font-size: 1.2rem;
+}
+
+#portfolio .btn-outline-secondary:hover {
+    background-color: #1f7798;
+}
+
+#portfolio .card-text {
+    min-height: 120px;
 }
 
 /* Contact section */
