@@ -28,7 +28,7 @@ h1, h2 {
 
 #hero {
     background-color: #dbdcde;
-    background-image: url(../assets/images/background.webp);
+    background-image: url(../images/background.webp);
     background-size: cover;
     background-position: 50% 70%;
     min-height: 500px;
