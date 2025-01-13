@@ -19,11 +19,16 @@ h1, h2 {
     color: #184f63;
 }
 
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0;
+}
+
 /* Header */
 
 #hero {
     background-color: #dbdcde;
-    background-image: url(assets/images/background.webp);
+    background-image: url(../assets/images/background.webp);
     background-size: cover;
     background-position: 50% 70%;
     min-height: 500px;
