@@ -30,6 +30,16 @@ h1, h2 {
     padding: 5% 7%;
 }
 
+/* Media queries */
+
+/* Use Bootstrap breakpoint for XL screens */
+@media screen and (mid-width: 1200px) {
+    /* Fixes all portfolio cards beign too tall on XL screens */
+    #portfolio .card-text {
+        min-height: auto;
+    }
+}
+
 /* About section */
 
 #about {
